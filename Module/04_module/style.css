@@ -1,0 +1,32 @@
+td,th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+nav > ul{
+    display: flex;
+}
+
+nav li{
+   list-style: none;
+   margin-right: 15px;
+ 
+}
+nav li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+nav li :hover{
+    background-color: rgb(15, 204, 204);
+}
+/* nested style here start */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(245, 16, 16);
+}
+nav li:hover .dropdown{
+    display: block;
+}
