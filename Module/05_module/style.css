@@ -97,7 +97,7 @@ main{
 .about{
     padding: 100px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #fcf0e8;
     margin: 150px 0px;
 }
 
@@ -117,6 +117,7 @@ color:  #757575;
 font-size: 15px;
 font-weight: 400;
 margin-bottom: 0px;
+text-align: center;
 
 }
 .info-text{
@@ -127,9 +128,31 @@ margin-top: 0px;
 
 
 }
-.about-info{
-    text-align: center;
-}
 
+/* what i do section */
+#what-section{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    background-color: #ebebeb;
+}
+.skill{
+    padding: 30px;
+    background-color: white;
+}
+.skill-tittle{
+    color: #181818;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+
+}
+.skill-text{
+color: #757575;
+font-size: 16px;
+line-height: 28px;
+}
 
 /* Main area end here */
