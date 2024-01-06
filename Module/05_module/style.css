@@ -60,9 +60,9 @@ nav a {
 /* header area start here */
 .header-area {
     background: #FFF8F3;
-    background: url(./images/header_bg.png);
+    background: url(./images/header_bg.png),url('./images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .header-content {
