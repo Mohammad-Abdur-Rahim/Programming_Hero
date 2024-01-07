@@ -21,12 +21,27 @@
     font-weight: bolder;
     
 }
+.heading1{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 3px;
+    
+}
 .paragraph{
     color: #444343;
     font-family: Work Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+}
+.paragraph1{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
 }
 .btn{
 border-radius: 5px;
@@ -51,3 +66,24 @@ gap: 50px;
     margin-top: 200px;
 }
 /* header part end here */
+.plan-section{
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    gap: 100px;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 100px;
+    background-position: center center;
+    
+}
+.banner-section{
+
+   height: 250px;
+   width: 1000px;
+   margin: auto;
+   border-radius: 8px;
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url('./images/watch.png');
+background-repeat: no-repeat;
+}
