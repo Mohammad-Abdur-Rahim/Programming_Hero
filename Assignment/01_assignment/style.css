@@ -101,7 +101,23 @@ font-size: 18px;
 line-height: 30px;
 margin-bottom: 25px;
 }
-
+/* join now section start here */
+.join-now{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 130px 0px 150px 0px;
+    margin-top: 80px;
+    line-height: 50px;
+    
+}
+.join-now span{
+    color: #F00;
+}
+.join-now .btn{
+    margin-top: 50px;
+}
 
 
 
