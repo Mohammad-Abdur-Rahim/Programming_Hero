@@ -15,6 +15,17 @@
     font-size: 48px;
 
 }
+.btn{
+border-radius: 8px;
+background: #F00;
+color: white;
+padding: 15px 32px;
+border: none;
+text-align: center;
+font-size: 17px;
+text-transform: uppercase;
+
+}
 
 .new-year {
     background:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./img/Banner\ Image.png');
@@ -71,12 +82,12 @@
 /* Header section end here */
 /* Main section start here */
 .welcome{
-    background: linear-gradient(20deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./img/Vectorrr.png');
+    background: linear-gradient(20deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./img/Vectorrr.png'),url('./img/year.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-position: center center, top right;
     border-radius: 16px;
     padding: 125px;
+    margin-top: 80px;
 
 }
 .wel-tittle2{
@@ -88,6 +99,7 @@
     color: rgba(255, 255, 255, 0.80);
 font-size: 18px;
 line-height: 30px;
+margin-bottom: 25px;
 }
 
 
