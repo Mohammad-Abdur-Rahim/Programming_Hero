@@ -129,9 +129,9 @@ margin-bottom: 25px;
    
 
 }
-.soon-box h3{
+.tt-title{
     color: #F00;
-    font-size: 40px;
+    font-size: 20px;
    
 }
 .soon-box h2{
@@ -162,7 +162,7 @@ background-image: url('./img/');
  .back-imgbox{
     display: flex;
     justify-content:space-between;
-    position: relative;
+    
  }
  .imgb img{
     width: 400px;
@@ -178,7 +178,30 @@ background-image: url('./img/');
  }
 .back-color{
 margin-top: -10px;
-position: absolute;
+
+}
+/* portfolio */
+.portfolio{
+   padding-top: 100px;
+}
+.portfolio h2{
+    margin: 7px 0px;
+   
+}
+.portfolio-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    margin-bottom: 5px;
+}
+.portfolio-box img{
+    transition: 0.5s;
+   
+
+}
+.portfolio-box img:hover {
+    border: 5px solid rgb(114, 114, 114);
+    transition: 0.5s;
 }
 
 /* Main section end here */
