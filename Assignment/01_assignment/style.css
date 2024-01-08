@@ -203,6 +203,12 @@ margin-top: -10px;
     border: 5px solid rgb(114, 114, 114);
     transition: 0.5s;
 }
+/* form-field section start here */
+.form-field{
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
 
 /* Main section end here */
 /* footer section start here */
