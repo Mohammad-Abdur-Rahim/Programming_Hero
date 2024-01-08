@@ -70,7 +70,25 @@
 
 /* Header section end here */
 /* Main section start here */
+.welcome{
+    background: linear-gradient(20deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./img/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 16px;
+    padding: 125px;
 
+}
+.wel-tittle2{
+    color: white;
+    
+    font-size: 72px;
+}
+.welcome p{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+line-height: 30px;
+}
 
 
 
