@@ -156,7 +156,30 @@ margin-bottom: 25px;
     color: black;
 }
  /* 50% discount section start here */
-
+ .discount-back{
+background-image: url('./img/');
+ }
+ .back-imgbox{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+ }
+ .imgb img{
+    width: 400px;
+ }
+ .img1 img{
+    
+ }
+ .img2 img{
+    
+ }
+ .img3 img{
+    margin-left: 120px;
+ }
+.back-color{
+margin-top: -10px;
+position: absolute;
+}
 
 /* Main section end here */
 /* footer section start here */
