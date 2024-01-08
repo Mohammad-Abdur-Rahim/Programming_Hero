@@ -4,6 +4,66 @@
 }
 
 /* Header section start here */
+.container {
+    width: 1320px;
+    margin: 50px auto;
+
+}
+
+.main-tittle {
+    color: #070211;
+    font-size: 48px;
+
+}
+
+.new-year {
+    background: url('../img/Banner\ Image.png');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 16px;
+
+}
+
+.new-tittle1 {
+    text-align: center;
+    color: white;
+    padding-top: 190px;
+    font-size: 32px;
+    margin-bottom: 15px;
+
+}
+
+.new-tittle2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 170px;
+    font-size: 72px;
+
+}
+
+/* discount section  start here*/
+.discount-section {
+    text-align: center;
+    color: #F00;
+}
+
+.discounttittle-1 {
+
+    font-size: 88px;
+    margin-bottom: 20px;
+}
+
+.discounttittle-2 {
+
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.disimag {
+    margin-top: 50px;
+}
 
 
 
