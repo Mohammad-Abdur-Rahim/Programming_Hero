@@ -15,20 +15,21 @@
     font-size: 48px;
 
 }
-.btn{
-border-radius: 8px;
-background: #F00;
-color: white;
-padding: 15px 32px;
-border: none;
-text-align: center;
-font-size: 17px;
-text-transform: uppercase;
+
+.btn {
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
 
 }
 
 .new-year {
-    background:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./img/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./img/Banner\ Image.png');
     background-color: rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,13 +77,10 @@ text-transform: uppercase;
     margin-top: 50px;
 }
 
-
-
-
 /* Header section end here */
 /* Main section start here */
-.welcome{
-    background: linear-gradient(20deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./img/Vectorrr.png'),url('./img/year.png');
+.welcome {
+    background: linear-gradient(20deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./img/Vectorrr.png'), url('./img/year.png');
     background-repeat: no-repeat;
     background-position: center center, top right;
     border-radius: 16px;
@@ -90,19 +88,22 @@ text-transform: uppercase;
     margin-top: 80px;
 
 }
-.wel-tittle2{
+
+.wel-tittle2 {
     color: white;
-    
+
     font-size: 72px;
 }
-.welcome p{
+
+.welcome p {
     color: rgba(255, 255, 255, 0.80);
-font-size: 18px;
-line-height: 30px;
-margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
 }
+
 /* join now section start here */
-.join-now{
+.join-now {
     text-align: center;
     color: black;
     font-size: 32px;
@@ -110,96 +111,110 @@ margin-bottom: 25px;
     padding: 130px 0px 150px 0px;
     margin-top: 80px;
     line-height: 50px;
-    
+
 }
- span{
+
+span {
     color: #F00;
 }
-.join-now .btn{
+
+.join-now .btn {
     margin-top: 50px;
 }
 
 /* comming soon  section start here */
-.comming-soon{
+.comming-soon {
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-   
-
 }
-.tt-title{
+
+.tt-title {
     color: #F00;
     font-size: 20px;
-   
+
 }
-.soon-box h2{
+
+.soon-box h2 {
     margin: 18px 0px 10px 0px;
 }
- p{
+
+p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     margin: 25px 0px 50px 0px;
 }
-.imgsoon{
+
+.imgsoon {
     border: 8px solid red;
     border-radius: 50%;
     padding: 30px;
     margin-right: 20px;
 }
+
 /* holiday part start here */
-.holiday{
+.holiday {
     text-align: center;
 }
-.holiday h4{
+
+.holiday h4 {
     color: black;
 }
- /* 50% discount section start here */
- .discount-back{
-background-image: url('./img/');
- }
- .back-imgbox{
+
+/* 50% discount section start here */
+.discount-back {
+    background-image: url('./img/');
+}
+
+.back-imgbox {
     display: flex;
-    justify-content:space-between;
-    
- }
- .imgb img{
-    width: 400px;
- }
- .img1 img{
-    
- }
- .img2 img{
-    
- }
- .img3 img{
-    margin-left: 120px;
- }
-.back-color{
-margin-top: -10px;
+    justify-content: space-between;
 
 }
+
+.imgb img {
+    width: 400px;
+}
+
+.img1 img {}
+
+.img2 img {}
+
+.img3 img {
+    margin-left: 120px;
+}
+
+.back-color {
+    margin-top: -10px;
+
+}
+
 /* portfolio */
-.portfolio{
-   padding-top: 100px;
+.portfolio {
+    padding-top: 100px;
 }
-.portfolio h2{
+
+.portfolio h2 {
     margin: 7px 0px;
-   
+
 }
-.portfolio-box{
+
+.portfolio-box {
     display: flex;
     justify-content: space-between;
     gap: 13px;
     margin-bottom: 5px;
 }
-.pbox img{
-    transition:transform  0.5s;
-   
+
+.pbox img {
+    transition: transform 0.5s;
+
     /* transition: transform .8s; 
     overflow: hidden; */
-} 
+}
+
 .pbox img:hover {
     border: 5px solid rgb(114, 114, 114);
     transition: 0.5s;
@@ -208,28 +223,30 @@ margin-top: -10px;
 }
 
 /* form-field section start here */
-.form-field{
+.form-field {
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
     padding: 80px 0px;
     border-radius: 8px;
-   
+
 }
 
-form input{
+form input {
     padding: 15px 32px;
     border: none;
     border-radius: 50px 0px 0px 50px;
     width: 25%;
-   
+
 }
-.form-flex{
+
+.form-flex {
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
-.btnf{
+
+.btnf {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     color: white;
@@ -238,92 +255,66 @@ form input{
     text-align: center;
     font-size: 17px;
     text-transform: uppercase;
-    
-    }
-     button:hover{
-        background-color: black;
-        color: white;
-        cursor: pointer;
-    }
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 
 /* Main section end here */
 /* footer section start here */
-.footer{
+.footer {
     background: #070211;
     border-radius: 10px;
 }
 
-
-
-
-
-
-.f1container{
-display: flex;
-justify-content: space-between;
-padding: 60px 120px 10px 120px;
+.f1container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 120px 10px 120px;
 }
-.f1-box,.f3-box{
+
+.f1-box,
+.f3-box {
     color: #FFF;
 
 }
-.f1-box p{
+
+.f1-box p {
     color: #FFF;
     margin: 0;
-  
-}
-.footer-hr{
-  border: 1px solid rgb(53, 52, 52);
-  margin: 0px 120px;
+
 }
 
+.footer-hr {
+    border: 1px solid rgb(53, 52, 52);
+    margin: 0px 120px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.f2container{
+.f2container {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.f2-img img{
+
+.f2-img img {
     width: 40px;
     height: 40px;
-    transition: transform .8s; 
-    
+    transition: transform .8s;
+
 }
-.f2-img img:hover{
+
+.f2-img img:hover {
     transform: scale(1.5);
 }
-.f3container{
+
+.f3container {
     display: flex;
     justify-content: space-between;
     padding: 10px 120px 60px 120px;
 }
-
-
-
-
-
-
 
 /* footer section end here */
