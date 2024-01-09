@@ -7,13 +7,11 @@
 .container {
     width: 1240px;
     margin: 50px auto;
-
 }
 
 .main-tittle {
     color: #070211;
     font-size: 48px;
-
 }
 
 .btn {
@@ -25,7 +23,6 @@
     text-align: center;
     font-size: 17px;
     text-transform: uppercase;
-
 }
 
 .new-year {
@@ -35,7 +32,10 @@
     background-size: cover;
     background-position: center center;
     border-radius: 16px;
+}
 
+.nbutton button {
+    margin: 0 auto;
 }
 
 .new-tittle1 {
@@ -44,7 +44,6 @@
     padding-top: 190px;
     font-size: 32px;
     margin-bottom: 15px;
-
 }
 
 .new-tittle2 {
@@ -52,7 +51,6 @@
     color: white;
     padding-bottom: 170px;
     font-size: 72px;
-
 }
 
 /* discount section  start here*/
@@ -62,13 +60,11 @@
 }
 
 .discounttittle-1 {
-
     font-size: 88px;
     margin-bottom: 20px;
 }
 
 .discounttittle-2 {
-
     font-size: 24px;
     margin-bottom: 15px;
 }
@@ -80,18 +76,28 @@
 /* Header section end here */
 /* Main section start here */
 .welcome {
-    background: linear-gradient(20deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./img/Vectorrr.png'), url('./img/year.png');
+    background: linear-gradient(20deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./img/Vectorrr.png');
     background-repeat: no-repeat;
-    background-position: center center, top right;
+    background-position: center center;
     border-radius: 16px;
-    padding: 125px;
+    /* padding: 125px; */
     margin-top: 80px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
 
+.wel1 {
+    padding: 125px;
+}
+
+.wel2 img {
+    width: 200px;
+    padding: 125px;
 }
 
 .wel-tittle2 {
     color: white;
-
     font-size: 72px;
 }
 
@@ -109,9 +115,8 @@
     font-size: 32px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 130px 0px 150px 0px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     line-height: 50px;
-
 }
 
 span {
@@ -128,13 +133,16 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .tt-title {
     color: #F00;
     font-size: 20px;
+}
 
+.title-2024 {
+    color: #F00;
+    font-size: 30px;
 }
 
 .soon-box h2 {
@@ -154,6 +162,15 @@ p {
     margin-right: 20px;
 }
 
+.imgsoon img {
+    transition: transform .8s;
+}
+
+.imgsoon img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 /* holiday part start here */
 .holiday {
     text-align: center;
@@ -171,7 +188,6 @@ p {
 .back-imgbox {
     display: flex;
     justify-content: space-between;
-
 }
 
 .imgb img {
@@ -188,7 +204,6 @@ p {
 
 .back-color {
     margin-top: -10px;
-
 }
 
 /* portfolio */
@@ -198,7 +213,6 @@ p {
 
 .portfolio h2 {
     margin: 7px 0px;
-
 }
 
 .portfolio-box {
@@ -210,16 +224,19 @@ p {
 
 .pbox img {
     transition: transform 0.5s;
-
     /* transition: transform .8s; 
     overflow: hidden; */
+    overflow: none;
+    width: 400px;
 }
 
 .pbox img:hover {
-    border: 5px solid rgb(114, 114, 114);
-    transition: 0.5s;
-    /* transform: scale(1.5);
-    overflow: hidden; */
+    /* border: 5px solid rgb(114, 114, 114);
+    transition: 0.5s; */
+    transform: scale(0.9);
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 18px;
 }
 
 /* form-field section start here */
@@ -228,7 +245,6 @@ p {
     text-align: center;
     padding: 80px 0px;
     border-radius: 8px;
-
 }
 
 form input {
@@ -236,14 +252,11 @@ form input {
     border: none;
     border-radius: 50px 0px 0px 50px;
     width: 25%;
-
 }
 
 .form-flex {
     display: flex;
     justify-content: center;
-
-
 }
 
 .btnf {
@@ -255,13 +268,17 @@ form input {
     text-align: center;
     font-size: 17px;
     text-transform: uppercase;
+}
 
+button {
+    transition: transform .8s;
 }
 
 button:hover {
     background-color: black;
     color: white;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 /* Main section end here */
@@ -280,13 +297,11 @@ button:hover {
 .f1-box,
 .f3-box {
     color: #FFF;
-
 }
 
 .f1-box p {
     color: #FFF;
     margin: 0;
-
 }
 
 .footer-hr {
@@ -304,11 +319,11 @@ button:hover {
     width: 40px;
     height: 40px;
     transition: transform .8s;
-
 }
 
 .f2-img img:hover {
     transform: scale(1.5);
+    cursor: pointer;
 }
 
 .f3container {
