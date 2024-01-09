@@ -1,21 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
 
+h2 {
+    text-align: center;
+    margin: 40px;
+}
+
+.calander {
     display: grid;
-    /* grid-template-columns:200px 200px 200px ; */
-    grid-template-columns: repeat(3,200px);
-    justify-content: center;
-   
-  
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 40px repeat(5, 50px);
+    row-gap: 20px;
+    column-gap: 10px;
+
 
 
 }
-.box{
-    background-color: red;
-    border: 1px solid white;
-    height: 60px;
-    width: 100px;
+
+.date,
+.day {
+    background-color: aqua;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.day {
+    background-color: rgb(243, 43, 43);
+    color: white;
 }
