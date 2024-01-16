@@ -12,6 +12,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 nav h3{
     font-size: 30px;
@@ -49,6 +50,7 @@ span {
 }
 .banner-area-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -109,6 +111,7 @@ font-weight: bold;
     margin-top: 60px;
     margin-bottom: 60px;
 display: flex;
+
 justify-content: space-around;
 gap: 100px;
 }
@@ -145,21 +148,66 @@ ul{
     margin-bottom: 20px;
 }
 .destination p{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .dfirst{
     display: flex;
+    flex-wrap: wrap;
    gap: 10px;
    margin-bottom: 9px;
 }
 .dsecond{
-    display: flex;
-    gap: 15px;
+    display: flex; flex-wrap: wrap;
+    gap: 17px;
     grid-template-columns: 20% 50% 30%;
     margin-bottom: 9px;
   
 }
 .dthird{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
+}
+
+/* -------------------------- */
+.chose-us{
+margin-top: 60px;
+margin-bottom: 30px;
+}
+.ttfirst{
+    text-align: center;
+}
+.ttfirst p{ margin-bottom: 40px;
+}
+.choseus-box{
+    display: flex;
+   
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+    
+}
+.chose-one{
+    border-radius: 16px;
+    padding: 50px;
+    width: 600px;
+
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.chose-two{
+    width: 600px;
+    border-radius: 16px;
+    padding: 50px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.chose-three{
+    margin: 0 auto;
+    width: 600px;
+    padding: 50px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    
 }
